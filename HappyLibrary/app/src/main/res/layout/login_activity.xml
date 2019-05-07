@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/login_border">
+        <EditText
+            android:id="@+id/email"
+            android:hint="Email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Password"/>
+
+        <Button
+            android:background="@drawable/signin_border"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/sign_in"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/go_to_registration"
+        android:text="New user ?  Go to registration..."
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

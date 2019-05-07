@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HappyLibrary</string>
+    <string name="tab_label1">All</string>
+    <string name="tab_label2">Profile</string>
+    <string name="tab_label3">My Books</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
